@@ -11,6 +11,17 @@ Province`.
 
 ## Usage
 
+### Google Colab
+
+Open `geocode_colab.ipynb` in [Google Colab](https://colab.research.google.com/)
+(File > Upload notebook, or open directly from GitHub), run the cells in
+order, and use the upload prompt to pick your `.csv`/`.xls`/`.xlsx` file. The
+`COUNTRY_CODE` and `REQUEST_DELAY_SECONDS` fields in the upload cell are
+editable via the Colab form widget. Geocoded `.csv` and `.xlsx` files download
+automatically when it finishes.
+
+### Command line
+
 ```bash
 pip install -r requirements.txt
 python geocode_addresses.py path/to/input.xlsx
